@@ -1,0 +1,22 @@
+import React from 'react';
+
+const  HeroLights = () => {
+  return (
+    <>
+      <spotLight
+        position={[4, 5, 6]}
+        angle={0.16}
+        intensity={150}
+        penumbra={0.2}
+        color="#fff"
+        
+      />
+
+    
+    
+    
+    </>
+  );
+}
+
+export default HeroLights;

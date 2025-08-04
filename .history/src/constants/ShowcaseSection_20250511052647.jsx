@@ -1,0 +1,23 @@
+import React from 'react';
+
+function ShowcaseSection() {
+  return (
+    <div id='work' className='app-showcase'>
+      <div className='showcaselayout'>
+        {/* LEFT */}
+        <div className='first-project-wrapper'>
+          <div className='image-wrapper'>
+            <img src="/images/project1.png" alt="AI-Developer" />  
+          </div>
+          <div className='text-content'>
+              AI-Powered with Emotion Detection and Real Time Chat Web Application with Group Chats 
+          </div>
+        </div>
+
+        {/* RIGHT */}
+      </div>
+    </div>
+  );
+}
+
+export default ShowcaseSection;
