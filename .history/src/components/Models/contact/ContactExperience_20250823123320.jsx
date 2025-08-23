@@ -1,7 +1,7 @@
 import { OrbitControls } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 
-import Computer from "./Computer";
+import Computer from "./Computer.jsx";
 
 const ContactExperience = () => {
   return (
@@ -30,7 +30,7 @@ const ContactExperience = () => {
           rotation={[-Math.PI / 2, 0, 0]}
         >
           <planeGeometry args={[30, 30]} />
-          <meshStandardMaterial color="#ED1F3E" />
+          <meshStandardMaterial color="#fff" />
         </mesh>
       </group>
 
