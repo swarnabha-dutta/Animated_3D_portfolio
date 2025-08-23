@@ -49,7 +49,7 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={doctorAppointmentProjectRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/HealthCare_platform.jpg" alt="Ryde App Interface" />
+              <img src="/images/doctor-appointment-project.jpeg" alt="Ryde App Interface" />
             </div>
             <div className="text-content">
               <h2 className="text-3xl md:text-4xl font-extrabold text-gradient mb-3">
@@ -88,7 +88,7 @@ const AppShowcase = () => {
                   Live Demo
                 </a>
                 <a
-                  href="https://github.com/swarnabha-dutta/Health_Check_Buddy"
+                  href="https://github.com/swarnabha-dutta/HealthMate"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-secondary"
