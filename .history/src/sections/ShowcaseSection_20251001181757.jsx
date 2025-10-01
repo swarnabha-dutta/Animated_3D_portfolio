@@ -62,7 +62,7 @@ const AppShowcase = () => {
                 <span className="text-white-80">
                   <strong className="text-primary">Health_Check_Buddy</strong> is a modern healthcare platform that lets you find doctors, view their fees up front, and book appointments in just a few clicks. <br />
                   <span className="block mt-2">
-                    <span className="font-semibold text-white">What makes HealthCheckBuddy special?</span>
+                    <span className="font-semibold text-white">What makes HealthMate special?</span>
                   </span>
                   <ul className="list-disc ms-5 mt-2 text-white-50 text-base">
                     <li>

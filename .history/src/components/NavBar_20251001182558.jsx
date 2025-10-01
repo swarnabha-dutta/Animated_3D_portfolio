@@ -50,12 +50,12 @@ const NavBar = () => {
             <span>Leetcode</span>
           </div>
         </a>
-        <a href="https://github.com/swarnabha-dutta" className="contact-btn group ml-4">
+        <a href="" className="contact-btn group ml-4">
           <div className="inner">
             <span>Github</span>
           </div>
         </a>
-        <a href="https://drive.google.com/drive/folders/1UTOCSiIvdCC9XGmJ8PkLxFtgeDr7vTzl" className="contact-btn group ml-4" target="_blank" rel="noopener noreferrer">
+        <a href="https://drive.google.com/file/d/1RMs30cLOkYvQmY1hO2tRoR1G5l7Qk4B1/view?usp=drive_link" className="contact-btn group ml-4" target="_blank" rel="noopener noreferrer">
           <span className="inner ">
             Resume
           </span>

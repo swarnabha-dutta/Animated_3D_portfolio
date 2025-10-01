@@ -30,10 +30,10 @@ const words = [
 
 const counterItems = [
     { value: 4, suffix: "", label: "Enhanced Projects with Added Features and Looking for  Future  Optimizations" },
-    { value: 3, suffix: "", label: "AI-Powered Features Integrated (Chatbot,AI integrations etc.)" },
-    { value: 2400, suffix: "+Hrs", label: "Practical Learning, Debugging & Implementation In Projects" },
+    { value: 3, suffix: "", label: "AI-Powered Features Integrated (Chatbot, Emotion Detection, etc.)" },
+    { value: 900, suffix: "+Hrs", label: "Practical Learning, Debugging & Implementation In Projects" },
 
-    { value: 900, suffix: "+Hrs", label: "DSA Learning & Problem Solving" },
+    { value: 600, suffix: "+Hrs", label: "DSA Learning & Problem Solving" },
 ];
 
 const logoIconsList = [
@@ -133,7 +133,12 @@ const techStackIcons = [
         scale: 5,
         rotation: [0, -Math.PI / 2, 0],
     },
-    
+    {
+        name: "Interactive",
+        modelPath: "/models/three.js-transformed.glb",
+        scale: 0.05,
+        rotation: [0, 0, 0],
+    },
     {
         name: "Project Manager",
         modelPath: "/models/git-svg-transformed.glb",
@@ -172,7 +177,7 @@ const expCards = [
     {
         review: "Faced implementation challenges while integrating 3D visuals with authentication systems. Solved through combining Three.js with Auth0 and responsive layout handling.",
         logoPath: "/images/React.png",
-        title: "Animated 3D  Portfolio",
+        title: "3D Developer Portfolio",
         date: "May 2025 – June 2025",
         responsibilities: [
             "Created immersive 3D visuals using React.js and Three.js with responsive animations.",

@@ -53,16 +53,16 @@ const AppShowcase = () => {
             </div>
             <div className="text-content">
               <h2 className="text-3xl md:text-4xl font-extrabold text-gradient mb-3">
-                HealthCheckBuddy – Effortless Online Doctor Appointments
+                HealthMate – Effortless Online Doctor Appointments
               </h2>
               <p className="text-white-50 md:text-xl mb-4">
                 <span className="font-bold text-white text-lg md:text-xl block mb-2">
                   Book doctors online, securely and easily.
                 </span>
                 <span className="text-white-80">
-                  <strong className="text-primary">Health_Check_Buddy</strong> is a modern healthcare platform that lets you find doctors, view their fees up front, and book appointments in just a few clicks. <br />
+                  <strong className="text-primary">He</strong> is a modern healthcare platform that lets you find doctors, view their fees up front, and book appointments in just a few clicks. <br />
                   <span className="block mt-2">
-                    <span className="font-semibold text-white">What makes HealthCheckBuddy special?</span>
+                    <span className="font-semibold text-white">What makes HealthMate special?</span>
                   </span>
                   <ul className="list-disc ms-5 mt-2 text-white-50 text-base">
                     <li>
@@ -72,7 +72,7 @@ const AppShowcase = () => {
                       <span className="font-bold text-primary">Super simple booking</span> – Find and schedule appointments in seconds.
                     </li>
                     <li>
-                      <span className="font-bold text-primary">Secure authentication</span> – Uses <span className="font-semibold text-primary">Clerk</span> for sign up/login, with <span className="font-semibold text-primary">MFA</span> (Multi-Factor Authentication) 
+                      <span className="font-bold text-primary">Secure authentication</span> – Uses <span className="font-semibold text-primary">Clerk</span> for sign up/login, with <span className="font-semibold text-primary">MFA</span> (Multi-Factor Authentication) and <span className="font-semibold text-primary">OTP</span>
                     </li>
                   </ul>
                 </span>
@@ -80,7 +80,7 @@ const AppShowcase = () => {
               </p>
               <div className="flex gap-4 mt-4">
                 <a
-                  href="https://health-check-buddy.vercel.app"
+                  href="https://health-mate-dz9cunq27-swarnabhadutta909-gmailcoms-projects.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-primary"
@@ -109,7 +109,7 @@ const AppShowcase = () => {
                 />
               </div>
               <h2>
-                <span className="text-primary font-bold">AI_Code_Reviewer</span> – Instant Feedback with Gemini AI
+                <span className="text-primary font-bold">AI Code Reviewer</span> – Instant Feedback with Gemini AI
               </h2>
               <p className="text-white-50 md:text-lg">
                 Automated code reviews made simple.<br />
@@ -122,7 +122,7 @@ const AppShowcase = () => {
                   </span>
                   <ul className="list-disc ms-5 mt-2 text-white-50 text-base">
                     <li>
-                      <span className="font-bold text-primary">🤖 Gemini AI integration</span> – Smart,Production grade context-aware code analysis.
+                      <span className="font-bold text-primary">🤖 Gemini AI integration</span> – Smart, context-aware code analysis.
                     </li>
                     <li>
                       <span className="font-bold text-primary">⚛️ Modern frontend</span> – Built with Vite + React for blazing-fast performance.
@@ -138,7 +138,7 @@ const AppShowcase = () => {
               </p>
               <div className="flex gap-4 mt-4">
                 <a
-                  href="https://ai-code-reviewer-frontend-u4ei.onrender.com"
+                  href="https://ai-code-reviewer-frontend.onrender.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-primary"
@@ -146,7 +146,7 @@ const AppShowcase = () => {
                   Live Demo
                 </a>
                 <a
-                  href="https://github.com/swarnabha-dutta/AI_Code_Reviewer"
+                  href="https://github.com/swarnabha-dutta/ai-code-reviewer"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-secondary"

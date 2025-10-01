@@ -33,7 +33,7 @@ const counterItems = [
     { value: 3, suffix: "", label: "AI-Powered Features Integrated (Chatbot,AI integrations etc.)" },
     { value: 2400, suffix: "+Hrs", label: "Practical Learning, Debugging & Implementation In Projects" },
 
-    { value: 900, suffix: "+Hrs", label: "DSA Learning & Problem Solving" },
+    { value: 600, suffix: "+Hrs", label: "DSA Learning & Problem Solving" },
 ];
 
 const logoIconsList = [
@@ -133,7 +133,12 @@ const techStackIcons = [
         scale: 5,
         rotation: [0, -Math.PI / 2, 0],
     },
-    
+    {
+        name: "Interactive",
+        modelPath: "/models/three.js-transformed.glb",
+        scale: 0.05,
+        rotation: [0, 0, 0],
+    },
     {
         name: "Project Manager",
         modelPath: "/models/git-svg-transformed.glb",
