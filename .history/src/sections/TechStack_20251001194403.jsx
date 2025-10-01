@@ -1,6 +1,7 @@
 import React from 'react';
 import TitleHeader from '../components/TitleHeader';
 import { techStackIcons } from '../constants';
+import TechIcon from '../components/models/TechLogos/TechIcon';
 
 const  TechStack=() => {
   return (
@@ -12,8 +13,16 @@ const  TechStack=() => {
         />
         <div className='tech-grid'>
           {techStackIcons.map((icon) => (
-            <div key={icon.name}>
-              {icon.name}
+            <div key={icon.name} className='card-border tech-card overflow-hidden group xl:rounded-full rounded-lg'>
+              {/* <div className='tech-card-animated-bg' /> */}
+              <div className='tech-card-content'>
+                <div className='tech-icon-wrapper'>
+                  <TechIcon model={ icon} />
+                </div>
+                <div className='padding-x w-full'>
+                    <p>{icon.name}</p>
+                </div>
+              </div>
               </div>
             ))}
         </div>
