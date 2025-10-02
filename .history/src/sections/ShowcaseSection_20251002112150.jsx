@@ -59,14 +59,13 @@ const AppShowcase = () => {
                 <span className="font-bold text-white text-lg md:text-xl block mb-2">
                   Book doctors online, securely and easily.
                 </span>
-                <span className="text-white-80">
+                <div className="text-white-80">
                   <strong className="text-primary">Health_Check_Buddy</strong> is a modern healthcare platform that lets you find doctors, view their fees up front, and book appointments in just a few clicks.
-                </span>
-              </div>
-              <div className="text-white-80 mb-2">
-                <span className="block mt-2">
-                  <span className="font-semibold text-white">What makes HealthCheckBuddy special?</span>
-                </span>
+                  <br />
+                  <span className="block mt-2">
+                    <span className="font-semibold text-white">What makes HealthCheckBuddy special?</span>
+                  </span>
+                </div>
               </div>
               <ul className="list-disc ms-5 mt-2 text-white-50 text-base mb-4">
                 <li>
@@ -76,12 +75,12 @@ const AppShowcase = () => {
                   <span className="font-bold text-primary">Super simple booking</span> – Find and schedule appointments in seconds.
                 </li>
                 <li>
-                  <span className="font-bold text-primary">Secure authentication</span> – Uses <span className="font-semibold text-primary">Clerk</span> for sign up/login, with <span className="font-semibold text-primary">MFA</span> (Multi-Factor Authentication) 
+                  <span className="font-bold text-primary">Secure authentication</span> – Uses <span className="font-semibold text-primary">Clerk</span> for sign up/login, with <span className="font-semibold text-primary">MFA</span> (Multi-Factor Authentication)
                 </li>
               </ul>
               <div className="flex gap-4 mt-4">
                 
-                  <a href="https://health-check-buddy.vercel.app"
+                  href="https://health-check-buddy.vercel.app"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-primary"
@@ -89,7 +88,7 @@ const AppShowcase = () => {
                   Live Demo
                 </a>
                 
-                  <a href="https://github.com/swarnabha-dutta/Health_Check_Buddy"
+                  href="https://github.com/swarnabha-dutta/Health_Check_Buddy"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-secondary"
@@ -112,16 +111,15 @@ const AppShowcase = () => {
               <h2>
                 <span className="text-primary font-bold">AI_Code_Reviewer</span> – Instant Feedback with Gemini AI
               </h2>
-              <div className="text-white-50 md:text-lg mb-2">
-                Automated code reviews made simple.
-              </div>
-              <div className="text-white-80 mb-2">
-                <strong className="text-primary">AI Code Reviewer</strong> is a full-stack web app that uses <span className="font-semibold text-primary">Google Gemini AI</span> to provide instant feedback and suggestions on submitted code. Users can paste their code and receive structured, AI-powered reviews within seconds.
-              </div>
-              <div className="text-white-80 mb-2">
-                <span className="block mt-2">
-                  <span className="font-semibold text-white">What makes AI Code Reviewer stand out?</span>
-                </span>
+              <div className="text-white-50 md:text-lg">
+                <p className="mb-2">Automated code reviews made simple.</p>
+                <div className="text-white-80">
+                  <strong className="text-primary">AI Code Reviewer</strong> is a full-stack web app that uses <span className="font-semibold text-primary">Google Gemini AI</span> to provide instant feedback and suggestions on submitted code. Users can paste their code and receive structured, AI-powered reviews within seconds.
+                  <br />
+                  <span className="block mt-2">
+                    <span className="font-semibold text-white">What makes AI Code Reviewer stand out?</span>
+                  </span>
+                </div>
               </div>
               <ul className="list-disc ms-5 mt-2 text-white-50 text-base mb-4">
                 <li>
@@ -139,7 +137,7 @@ const AppShowcase = () => {
               </ul>
               <div className="flex gap-4 mt-4">
                 
-                  <a href="https://ai-code-reviewer-frontend-u4ei.onrender.com"
+                  href="https://ai-code-reviewer-frontend-u4ei.onrender.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-primary"
@@ -147,7 +145,7 @@ const AppShowcase = () => {
                   Live Demo
                 </a>
                 
-                  <a href="https://github.com/swarnabha-dutta/AI_Code_Reviewer"
+                  href="https://github.com/swarnabha-dutta/AI_Code_Reviewer"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-secondary"

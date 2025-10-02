@@ -89,7 +89,7 @@ const AppShowcase = () => {
                   Live Demo
                 </a>
                 
-                  <a href="https://github.com/swarnabha-dutta/Health_Check_Buddy"
+                  href="https://github.com/swarnabha-dutta/Health_Check_Buddy"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-secondary"

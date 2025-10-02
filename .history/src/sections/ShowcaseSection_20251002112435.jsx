@@ -81,7 +81,7 @@ const AppShowcase = () => {
               </ul>
               <div className="flex gap-4 mt-4">
                 
-                  <a href="https://health-check-buddy.vercel.app"
+                  href="https://health-check-buddy.vercel.app"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-primary"
@@ -89,7 +89,7 @@ const AppShowcase = () => {
                   Live Demo
                 </a>
                 
-                  <a href="https://github.com/swarnabha-dutta/Health_Check_Buddy"
+                  href="https://github.com/swarnabha-dutta/Health_Check_Buddy"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-secondary"
@@ -139,7 +139,7 @@ const AppShowcase = () => {
               </ul>
               <div className="flex gap-4 mt-4">
                 
-                  <a href="https://ai-code-reviewer-frontend-u4ei.onrender.com"
+                  < ahref="https://ai-code-reviewer-frontend-u4ei.onrender.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-primary"
@@ -147,7 +147,7 @@ const AppShowcase = () => {
                   Live Demo
                 </a>
                 
-                  <a href="https://github.com/swarnabha-dutta/AI_Code_Reviewer"
+                  href="https://github.com/swarnabha-dutta/AI_Code_Reviewer"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-secondary"
