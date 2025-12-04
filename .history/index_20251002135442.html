@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    
+    <!-- Preconnect to improve loading speed -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://dev-1exc80hrjkksdd4q.us.auth0.com">
+    
+    <!-- DNS Prefetch for external resources -->
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+    
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Swarnabha - MERN Stack Web Developer Portfolio showcasing real projects">
+    <meta name="keywords" content="web developer, MERN stack, React, portfolio">
+    
+    <!-- Performance optimization -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    
+    <title>Swarnabha - Web Developer Portfolio</title>
+    
+    <!-- Critical CSS - Add your critical above-the-fold CSS here -->
+    <style>
+      /* Critical CSS for initial render */
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      body { 
+        font-family: system-ui, -apple-system, sans-serif;
+        background: #000;
+        color: #fff;
+      }
+      /* Loading spinner styles */
+      .loading-spinner {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50px;
+        height: 50px;
+        border: 3px solid rgba(255,255,255,0.1);
+        border-top-color: #4338ca;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+      @keyframes spin {
+        to { transform: translate(-50%, -50%) rotate(360deg); }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <!-- Loading fallback -->
+      <div class="loading-spinner"></div>
+    </div>
+    
+    <!-- Main script - defer for better performance -->
+    <script type="module" src="/src/main.jsx" defer></script>
+  </body>
+</html>

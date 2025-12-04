@@ -55,7 +55,7 @@ const NavBar = () => {
             <span>Github</span>
           </div>
         </a>
-        <a href="https://drive.google.com/drive/folders/1UTOCSiIvdCC9XGmJ8PkLxFtgeDr7vTzl" className="contact-btn group ml-4" target="_blank" rel="noopener noreferrer">
+        <a href="https://drive.google.com/drive/u/0/folders/1yXcjlNLx0GPaCQh86m8k138gFlhNs9m5" className="contact-btn group ml-4" target="_blank" rel="noopener noreferrer">
           <span className="inner ">
             Resume
           </span>
