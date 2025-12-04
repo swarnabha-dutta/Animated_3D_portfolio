@@ -30,10 +30,10 @@ const words = [
 
 const counterItems = [
     { value: 4, suffix: "", label: "Enhanced Projects with Added Features and Looking for  Future  Optimizations" },
-    { value: 3, suffix: "", label: "AI-Powered Features Integrated (Chatbot,AI integrations etc.)" },
-    { value: 2400, suffix: "+Hrs", label: "Practical Learning, Debugging & Implementation In Projects" },
+    { value: 2, suffix: "", label: "AI-Powered Features Integrated (Chatbot,AI integrations etc.)" },
+    { value: 2700, suffix: "+Hrs", label: "Practical Learning, Debugging & Implementation In Projects" },
 
-    { value: 900, suffix: "+Hrs", label: "DSA Learning & Problem Solving" },
+    { value: 1400, suffix: "+Hrs", label: "DSA Learning & Problem Solving" },
 ];
 
 const logoIconsList = [
@@ -145,43 +145,49 @@ const techStackIcons = [
 
 
 const expCards = [
+
     {
-        review: "Faced challenges: integrating Gemini AI into a full-stack MERN application and handling real-time prompt responses. Learned how to connect AI models with user input securely and effectively.",
+        review:
+            "Faced major challenges integrating Gemini AI into a full-stack MERN workflow—especially handling CORS issues, prompt tuning, large input validation, and stabilizing real-time AI responses. Debugged Render deployment failures, environment variable conflicts, and backend timeouts. Eventually learned how to build a reliable, production-ready AI pipeline with proper error handling and smooth React–Express communication",
         logoPath: "/images/Node.js.png",
         title: "AI Code Reviewer",
-        date: "Feb 2024 – Mar 2024",
+        date: "Mar 2025 - Apr 2025",
         responsibilities: [
-            "Developed real-time code analysis UI using React.js, HTML, CSS, and JavaScript.",
-            "Built RESTful APIs with Node.js, Express.js, and MongoDB integrated with Gemini AI.",
-            "Engineered a full-stack MERN platform to simulate a production-grade code review experience.",
-            "Deployed the application on Render with live AI response support."
+            "Engineered a real-time code review interface using React.js, HTML, CSS, and modular component patterns.",
+            "Developed robust REST APIs with Node.js and Express, integrating Gemini AI for context-aware analysis.",
+            "Designed a production-grade MERN workflow with request validation, error handling, and AI response mapping.",
+            "Deployed a full-stack system on Render enabling real-time AI feedback with reliable uptime."
         ]
     },
+
     {
-        review: "Faced integration challenges while combining scheduling, health records, and secure authentication in one platform. Used modular design with Clerk Auth and Prisma ORM to solve complexity.",
-        logoPath: "/images/Next.js.png",
+        review:"Faced integration challenges combining Clerk authentication, Prisma ORM, and PostgreSQL into a single scalable workflow. Debugged multiple migration issues, schema conflicts, and connection pooling errors. Fixed layout shifts and performance bottlenecks to achieve clean Lighthouse scores. Learned how to architect a secure, modular healthcare system end-to-end.",
+        logoPath: "/images/React.png",
         title: "HealthCheckBuddy",
         date: "Apr 2025 – May 2025",
         responsibilities: [
-            "Built responsive healthcare consultation interface using Next.js, React.js, and Tailwind CSS.",
-            "Developed backend using Prisma ORM, PostgreSQL, and Clerk Auth for secure appointment handling.",
-            "Integrated scheduling, health records, and payment systems for a complete health solution.",
-            "Deployed on Vercel; achieved 92/100 Lighthouse score and currently serving 36+ active users."
+            "Developed a responsive healthcare consultation UI using Next.js, React.js, and Tailwind CSS.",
+            "Built secure backend services using Prisma ORM, PostgreSQL, and Clerk Auth with MFA.",
+            "Integrated appointment scheduling, patient records, and payment preparation into a unified flow.",
+            "Achieved a 92/100 Lighthouse performance score and currently serving 36+ real users on Vercel."
         ]
     },
     {
-        review: "Faced implementation challenges while integrating 3D visuals with authentication systems. Solved through combining Three.js with Auth0 and responsive layout handling.",
-        logoPath: "/images/React.png",
-        title: "Animated 3D  Portfolio",
-        date: "May 2025 – June 2025",
+        review:
+            "Encountered challenges building a predictive stock dashboard with secure auth and CI/CD. Solved by combining Next.js App Router, Better-Auth, MongoDB, and automated Vercel deployments.",
+        logoPath: "/images/Next.js.png",
+        title: "StockPilot – AI-Powered Stock Prediction",
+        date: "Oct 2025 – Nov 2025",
         responsibilities: [
-            "Created immersive 3D visuals using React.js and Three.js with responsive animations.",
-            "Integrated Auth0 with MFA and OAuth for secure cross-device authentication.",
-            "Showcased full-stack development skills via real-time interactivity and clean design.",
-            "Deployed on Vercel with full device compatibility and real-world production standards."
+            "Developed a high-performance stock prediction and portfolio tracking interface using Next.js and Tailwind CSS.",
+            "Implemented secure authentication using Better-Auth with session tokens and httpOnly cookie protection.",
+            "Optimized MongoDB queries and API structure for fast data retrieval and scalable portfolio insights.",
+            "Configured fully automated CI/CD with Vercel for instant deployments on every GitHub push."
         ]
-    }
+    },
+
 ];
+
 
 
 
